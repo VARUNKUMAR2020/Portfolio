@@ -1,13 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Croissant+One&family=Poppins:wght@900&display=swap");
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color:  rgb(255, 255, 255);
+  color: rgb(0,0,0);
+}
+.head {
+  font-family: "Croissant One", cursive;
+  font-family: "Poppins", sans-serif;
+}
+.head span {
+  color: #f75c1e;
+}
+.about {
+  margin-top: 50px;
+}
+.github {
+  width: 50px;
+  height: 30px;
+}
+.resume {
+  color: white;
+  background-color: #f75c1e;
+}
+.picture {
+  width: 250px;
+  height: auto;
+  border-radius: 50px;
+}
+.react {
+  width: 100px;
+  height: 60px;
+}
+.html {
+  width: 60px;
+  height: 60px;
+}
+.css {
+  width: 45px;
+  height: 45px;
+}
+.javascript {
+  width: 45px;
+  height: 45px;
+}
+.fe {
+  border: 2px solid #f75c1e;
+}
+.line {
+  color: #f75c1e;
+  margin-top: 100px;
+}
+.list {
+  list-style-type: none;
+}
+.skill {
+  margin-top: 50px;
+}
+.skills {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.hr {
+ border: 2px solid #f75c1e;
+}
+.deg {
+  text-indent: 100px;
+}
+.project-card {
+  background-color: transparent;
+  border: 2px solid #f75c1e;
+  width: 400px;
+  height:370px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.hover{
+  text-decoration: none;
+}
+
+.hover:hover{
+  text-decoration: none;
+}
+
+.res{
+  color: white;
+  background-color: #f75c1e;
+  padding: 0px 5px 0px 5px;
+  margin-left: 70px;
+}
+.pro-img{
+  width: 350px;
+  border:2px solid #f75c1e;
+  border-radius: 50%;
+}
+
+.button{
+  margin-left: 50px;
+  margin-bottom: 10px;
+  background-color: transparent;
+  color:#f75c1e;
+  border: none;
+}
+
+.code-img{
+  height: 25px;
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+.code-img-web{
+  height: 25px;
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+.button-dark{
+  height: 20px;
+  margin-right: 5px;
+}
+
+.main-certificate{
+  height: 40px;
+}
+
+.contact{
+  height: 35px; 
+}
+
+.mail{
+  height:37px
 }
