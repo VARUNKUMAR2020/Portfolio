@@ -32,7 +32,7 @@ const Certificate = () => {
             <img alt="profile" src={certificate} />
             BridgeLabz - Mumbai
           </h4>
-          <h5 className=" fw-light">Java ,Javascript ,HTML ,CSS </h5>
+          <h5 className=" fw-light ms-5"> Java ,Javascript ,HTML ,CSS </h5>
           <a
             href="https://drive.google.com/file/d/1qGu8WSk3PSM-zUT_VKtAo-b8BI2NOcxR/view?usp=sharing"
             target="_blank"

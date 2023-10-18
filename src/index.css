@@ -94,7 +94,7 @@ body {
 }
 
 .button{
-  margin-left: 50px;
+  margin-left: 10px;
   margin-bottom: 10px;
   background-color: transparent;
   color:#f75c1e;
@@ -109,7 +109,6 @@ body {
 
 .code-img-web{
   height: 25px;
-  margin-right: 3px;
   margin-bottom: 5px;
 }
 
@@ -128,4 +127,12 @@ body {
 
 .mail{
   height:37px
+}
+
+.project-display{
+  border: 1px solid #f75c1e;
+}
+
+.mentor{
+  height: 200px;
 }
