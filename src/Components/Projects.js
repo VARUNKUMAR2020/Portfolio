@@ -174,7 +174,7 @@ const Projects = () => {
                 </p>
                 <div className="ms-3">
                   <a
-                    href="https://github.com/VARUNKUMAR2020/MotorCycle_Service-FrontEnd"
+                    href="https://github.com/VARUNKUMAR2020/Library_Management-FrontEnd"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -185,7 +185,7 @@ const Projects = () => {
                   </a>
 
                   <a
-                    href="https://github.com/VARUNKUMAR2020/MotorCycle_Service-BackEnd"
+                    href="https://github.com/VARUNKUMAR2020/Library_Management-BackEnd"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -196,7 +196,59 @@ const Projects = () => {
                   </a>
 
                   <a
-                    href=" https://varun-motorcycle-service.netlify.app/"
+                    href="https://varun-library.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <button className="button">
+                      <img alt="profile" src={web} className="code-img-web" />
+                      Website
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-md-4 mt-3">
+            <div className="card project-card">
+              <img
+                alt="profile"
+                src="https://user-images.githubusercontent.com/111338202/276566255-cca3f285-ca71-4e24-adac-74f2e5e52f45.png"
+                className="card-img-top  img-fluid"
+              />
+              <div className="card-body">
+                <h6 className="card-title fs-5">BOOK STORE- MERN</h6>
+                <p className="card-text fw-light fs-6 ">
+                  Providing users to view books , buy books the app is provided
+                  with payment options and a kind of easy booking e-commerce
+                  website .
+                </p>
+                <div className="ms-3">
+                  <a
+                    href="https://github.com/VARUNKUMAR2020/BookStore-FrontEnd"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <button className="button">
+                      <img alt="profile" src={front} className="code-img" />
+                      FrontEnd
+                    </button>
+                  </a>
+
+                  <a
+                    href="https://github.com/VARUNKUMAR2020/BookStore-BackEnd"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <button className="button">
+                      <img alt="profile" src={back} className="code-img" />
+                      BackEnd
+                    </button>
+                  </a>
+
+                  <a
+                    href="https://varun-book-store.netlify.app"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -396,7 +448,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          
+
           <div className="col-md-4 mt-3">
             <div className="card project-card">
               <img
@@ -407,7 +459,8 @@ const Projects = () => {
               <div className="card-body">
                 <h6 className="card-title fs-5">PRICE LIST - REACT</h6>
                 <p className="card-text fw-light fs-6 ">
-                  Done a simple project using REACT to show the detail description about the uses regarding the price of the list .
+                  Done a simple project using REACT to show the detail
+                  description about the uses regarding the price of the list .
                 </p>
                 <div className="ms-4">
                   <a
@@ -530,10 +583,12 @@ const Projects = () => {
               />
               <div className="card-body">
                 <h6 className="card-title fs-5">
-                 THIRUKURAL API - HTML/CSS/JS
+                  THIRUKURAL API - HTML/CSS/JS
                 </h6>
                 <p className="card-text fw-light fs-6 ">
-                  Providing users the thirukural of which one they needed , where they need to specify the number  with the meaning of the Kural respectively.
+                  Providing users the thirukural of which one they needed ,
+                  where they need to specify the number with the meaning of the
+                  Kural respectively.
                 </p>
                 <div className="ms-4">
                   <a
@@ -561,7 +616,6 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          
         </div>
       ) : (
         <div className="row mb-5">
@@ -573,11 +627,10 @@ const Projects = () => {
                 className="card-img-top  img-fluid"
               />
               <div className="card-body">
-                <h6 className="card-title fs-5">
-                  FILE SYSTEM - NODEJS
-                </h6>
+                <h6 className="card-title fs-5">FILE SYSTEM - NODEJS</h6>
                 <p className="card-text fw-light fs-6 ">
-                  Providing users completed functionality like read , write , update and delete of the file system in the nodejs.
+                  Providing users completed functionality like read , write ,
+                  update and delete of the file system in the nodejs.
                 </p>
                 <div className="text-center me-5">
                   <a
@@ -590,8 +643,6 @@ const Projects = () => {
                       Code
                     </button>
                   </a>
-
-                 
                 </div>
               </div>
             </div>
@@ -609,7 +660,8 @@ const Projects = () => {
                   ASSIGN MENTOR - NODE / MONGO DB
                 </h6>
                 <p className="card-text fw-light fs-6 ">
-                  Providing users completed functionality like read , write , update and delete of the file system in the nodejs.
+                  Providing users completed functionality like read , write ,
+                  update and delete of the file system in the nodejs.
                 </p>
                 <div className="me-4 text-center">
                   <a
@@ -633,8 +685,6 @@ const Projects = () => {
                       Postman
                     </button>
                   </a>
-
-                 
                 </div>
               </div>
             </div>
@@ -642,17 +692,12 @@ const Projects = () => {
 
           <div className="col-md-4 mt-3">
             <div className="card project-card">
-              <img
-                alt="profile"
-                src={mongodb}
-                className="mentor"
-              />
+              <img alt="profile" src={mongodb} className="mentor" />
               <div className="card-body">
-                <h6 className="card-title fs-5">
-                  ZEN CLASS - MONGO DB
-                </h6>
+                <h6 className="card-title fs-5">ZEN CLASS - MONGO DB</h6>
                 <p className="card-text fw-light fs-6 ">
-                 Performed the queries regarding the ZEN class database in the mongo compasss and the screen shot is shared with it .
+                  Performed the queries regarding the ZEN class database in the
+                  mongo compasss and the screen shot is shared with it .
                 </p>
                 <div className="me-4 text-center">
                   <a
@@ -665,15 +710,35 @@ const Projects = () => {
                       Code
                     </button>
                   </a>
-
-                
-
-                 
                 </div>
               </div>
             </div>
           </div>
 
+          <div className="col-md-4 mt-3">
+            <div className="card project-card">
+              <img alt="profile" src="https://images.datacamp.com/image/upload/v1646566163/about_sql_5dcf267e9c.jpg" className="mentor" />
+              <div className="card-body">
+                <h6 className="card-title fs-5">QUERIES - SQL</h6>
+                <p className="card-text fw-light fs-6 ">
+                  Performed the queries regarding the ZEN class database in the
+                  SQL Workbench and shown the relationalship.
+                </p>
+                <div className="me-4 text-center">
+                  <a
+                    href="https://github.com/VARUNKUMAR2020/ZEN-DB"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <button className="button">
+                      <img alt="profile" src={front} className="code-img" />
+                      Code
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       )}
       <hr className="hr" />
