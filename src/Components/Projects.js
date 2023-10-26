@@ -41,21 +41,21 @@ const Projects = () => {
         PROJECTS
       </h3>
 
-      <div className="my-4">
+      <div className="my-4 ">
         <button className={`btn ${merncss}`} onClick={handleMern}>
           MERN STACK PROJECTS
         </button>
-        <button className={`btn ${frontcss} ms-3`} onClick={handleFrontend}>
+        <button className={`btn ${frontcss} ms-sm-3 `} onClick={handleFrontend}>
           FRONT-END PROJECTS
         </button>
-        <button className={`btn ${backcss} ms-3`} onClick={handleBackend}>
+        <button className={`btn ${backcss} ms-md-3 mt-lg-0 mt-sm-2`} onClick={handleBackend}>
           BACK-END PROJECTS
         </button>
       </div>
 
       {project === "fullstack" ? (
         <div className="row mb-5">
-          <div className="col-md-4 mt-3">
+          <div className="col-lg-4 col-md-6  mt-3">
             <div className="card project-card">
               <img
                 alt="profile"
@@ -106,7 +106,7 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="col-md-4 mt-3">
+          <div className="col-lg-4 col-md-6  mt-3">
             <div className="card project-card">
               <img
                 alt="profile"
@@ -117,8 +117,7 @@ const Projects = () => {
                 <h6 className="card-title fs-5">HALL BOOKING - MERN</h6>
                 <p className="card-text fw-light fs-6 ">
                   Providing users authentication for login , sigup and if they
-                  are forgot the password they can also change . Functionality
-                  of booking the Hall and create own hall .
+                  are forgot the password they can also change .
                 </p>
                 <div className="ms-3">
                   <a
@@ -158,7 +157,7 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="col-md-4 mt-3">
+          <div className="col-lg-4 col-md-6  mt-3">
             <div className="card project-card">
               <img
                 alt="profile"
@@ -169,8 +168,7 @@ const Projects = () => {
                 <h6 className="card-title fs-5">LIBRARY MANAGEMENT- MERN</h6>
                 <p className="card-text fw-light fs-6 ">
                   Providing users to add the books , add author , and read the
-                  books done the form validation using Formik and some React
-                  Hooks .
+                  books done the form validation using Formik .
                 </p>
                 <div className="ms-3">
                   <a
@@ -210,7 +208,7 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="col-md-4 mt-3">
+          <div className="col-lg-4 col-md-6  mt-3">
             <div className="card project-card">
               <img
                 alt="profile"
@@ -262,7 +260,7 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="col-md-4 mt-3">
+          <div className="col-lg-4 col-md-6  mt-3">
             <div className="card project-card">
               <img
                 alt="profile"
@@ -274,7 +272,7 @@ const Projects = () => {
                 <p className="card-text fw-light fs-6 ">
                   Providing users authentication for login , sigup and if they
                   are forgot the password they can also change . Forgot password
-                  is done by sending Link to the mail .
+                  is done .
                 </p>
                 <div className="ms-3">
                   <a
@@ -314,7 +312,7 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="col-md-4 mt-3">
+          <div className="col-lg-4 col-md-6  mt-3">
             <div className="card project-card">
               <img
                 alt="profile"
@@ -368,7 +366,7 @@ const Projects = () => {
         </div>
       ) : project === "frontend" ? (
         <div className="row mb-5">
-          <div className="col-md-4 mt-3">
+          <div className="col-lg-4 col-md-6  mt-3">
             <div className="card project-card">
               <img
                 alt="profile"
@@ -408,7 +406,7 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="col-md-4 mt-3">
+          <div className="col-lg-4 col-md-6  mt-3">
             <div className="card project-card">
               <img
                 alt="profile"
@@ -419,8 +417,7 @@ const Projects = () => {
                 <h6 className="card-title fs-5">CRUD APPLICATION - REACT</h6>
                 <p className="card-text fw-light fs-6 ">
                   Providing users with a user-friendly platform to do the create
-                  , read , update and delete functionality . Which is completely
-                  done with random API's.
+                  , read , update and delete functionality . 
                 </p>
                 <div className="ms-4">
                   <a
@@ -449,7 +446,7 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="col-md-4 mt-3">
+          <div className="col-lg-4 col-md-6  mt-3">
             <div className="card project-card">
               <img
                 alt="profile"
@@ -460,7 +457,7 @@ const Projects = () => {
                 <h6 className="card-title fs-5">PRICE LIST - REACT</h6>
                 <p className="card-text fw-light fs-6 ">
                   Done a simple project using REACT to show the detail
-                  description about the uses regarding the price of the list .
+                  description about the uses regarding the price of the list.
                 </p>
                 <div className="ms-4">
                   <a
@@ -489,7 +486,7 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="col-md-4 mt-3">
+          <div className="col-lg-4 col-md-6  mt-3">
             <div className="card project-card">
               <img
                 alt="profile"
@@ -532,7 +529,7 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="col-md-4 mt-3">
+          <div className="col-lg-4 col-md-6  mt-3">
             <div className="card project-card">
               <img
                 alt="profile"
@@ -574,7 +571,7 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="col-md-4 mt-3">
+          <div className="col-lg-4 col-md-6  mt-3">
             <div className="card project-card">
               <img
                 alt="profile"
@@ -619,7 +616,7 @@ const Projects = () => {
         </div>
       ) : (
         <div className="row mb-5">
-          <div className="col-md-4 mt-3">
+          <div className="col-lg-4 col-md-6  mt-3">
             <div className="card project-card">
               <img
                 alt="profile"
@@ -648,7 +645,7 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="col-md-4 mt-3">
+          <div className="col-lg-4 col-md-6  mt-3">
             <div className="card project-card">
               <img
                 alt="profile"
@@ -690,14 +687,14 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="col-md-4 mt-3">
+          <div className="col-lg-4 col-md-6  mt-3">
             <div className="card project-card">
               <img alt="profile" src={mongodb} className="mentor" />
               <div className="card-body">
                 <h6 className="card-title fs-5">ZEN CLASS - MONGO DB</h6>
                 <p className="card-text fw-light fs-6 ">
                   Performed the queries regarding the ZEN class database in the
-                  mongo compasss and the screen shot is shared with it .
+                  mongo compasss .
                 </p>
                 <div className="me-4 text-center">
                   <a
@@ -715,7 +712,7 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="col-md-4 mt-3">
+          <div className="col-lg-4 col-md-6  mt-3">
             <div className="card project-card">
               <img alt="profile" src="https://images.datacamp.com/image/upload/v1646566163/about_sql_5dcf267e9c.jpg" className="mentor" />
               <div className="card-body">
