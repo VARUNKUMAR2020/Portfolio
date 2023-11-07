@@ -161,6 +161,56 @@ const Projects = () => {
             <div className="card project-card">
               <img
                 alt="profile"
+                src="https://user-images.githubusercontent.com/111338202/280994804-78dc8c75-e03b-4cef-9e71-c799959d1a44.png"
+                className="card-img-top  img-fluid"
+              />
+              <div className="card-body">
+                <h6 className="card-title fs-5">CHAT APPLICATION- MERN</h6>
+                <p className="card-text fw-light fs-6 ">
+                  Providing users to create rooms and chat with one and another using socket io .
+                </p>
+                <div className="ms-3">
+                  <a
+                    href="https://github.com/VARUNKUMAR2020/Chat_App-FrontEnd"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <button className="button">
+                      <img alt="profile" src={front} className="code-img" />
+                      FrontEnd
+                    </button>
+                  </a>
+
+                  <a
+                    href="https://github.com/VARUNKUMAR2020/Chat_App-BackEnd"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <button className="button">
+                      <img alt="profile" src={back} className="code-img" />
+                      BackEnd
+                    </button>
+                  </a>
+
+                  <a
+                    href=" https://varun-cat-chat.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <button className="button">
+                      <img alt="profile" src={web} className="code-img-web" />
+                      Website
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-lg-4 col-md-6  mt-3">
+            <div className="card project-card">
+              <img
+                alt="profile"
                 src="https://user-images.githubusercontent.com/111338202/257068044-b9c4376b-f488-4ce0-8c19-0167a87acb6f.png"
                 className="card-img-top  img-fluid"
               />
@@ -168,7 +218,7 @@ const Projects = () => {
                 <h6 className="card-title fs-5">LIBRARY MANAGEMENT- MERN</h6>
                 <p className="card-text fw-light fs-6 ">
                   Providing users to add the books , add author , and read the
-                  books done the form validation using Formik .
+                  books done the form validation using Formik . All the CRUD functionality are performed .
                 </p>
                 <div className="ms-3">
                   <a
@@ -247,58 +297,6 @@ const Projects = () => {
 
                   <a
                     href="https://varun-book-store.netlify.app"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <button className="button">
-                      <img alt="profile" src={web} className="code-img-web" />
-                      Website
-                    </button>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-lg-4 col-md-6  mt-3">
-            <div className="card project-card">
-              <img
-                alt="profile"
-                src="https://user-images.githubusercontent.com/111338202/270272210-5ba0c055-3ca1-4653-b5b4-536a9b2f6045.png"
-                className="card-img-top  img-fluid "
-              />
-              <div className="card-body">
-                <h6 className="card-title fs-5">EMAIL AUTHENTICATION - MERN</h6>
-                <p className="card-text fw-light fs-6 ">
-                  Providing users authentication for login , sigup and if they
-                  are forgot the password they can also change . Forgot password
-                  is done .
-                </p>
-                <div className="ms-3">
-                  <a
-                    href="https://github.com/VARUNKUMAR2020/PasswordReset-FrontEnd"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <button className="button">
-                      <img alt="profile" src={front} className="code-img" />
-                      FrontEnd
-                    </button>
-                  </a>
-
-                  <a
-                    href="https://github.com/VARUNKUMAR2020/PasswordReset-Backend"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <button className="button">
-                      <img alt="profile" src={back} className="code-img" />
-                      BackEnd
-                    </button>
-                  </a>
-
-                  <a
-                    href=" https://varun-reset-password.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
