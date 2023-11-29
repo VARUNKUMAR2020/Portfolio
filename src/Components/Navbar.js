@@ -22,6 +22,7 @@ const Navbar = () => {
            <button className="border-none rounded-3"><img src={sun}className="button-dark"/>Light Mode</button>
         </div> */}
       </div>
+      <hr className="hr" />
     </div>
   );
 };

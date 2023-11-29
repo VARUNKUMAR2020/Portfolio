@@ -2,10 +2,16 @@ import React from "react";
 import img from "../assets/varunkumar.png";
 import github from "../assets/github.svg";
 import linkedIn from "../assets/linkedin.svg";
+import about from "../assets/about.png";
 
 const About = () => {
   return (
     <div className="about">
+      <h3 className="fw-bold text-center mb-3">
+        <img alt="profile" src={about} className="me-2 mb-2 " />
+        ABOUT
+      </h3>
+
       <div className="row mb-5">
         <div className="col-md-6">
           <p className="fs-5 fw-light">
